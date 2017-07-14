@@ -1,0 +1,417 @@
+Array
+(
+    [0] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] => hello how can I help you this afternoon
+                                    [confidence] => 0.90870106
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [1] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  hi I'm in need of some electrical work what can I do for you and I'm laying here right now in the box with a vampire that came crashing through the ceiling and wasn't expected and I like to get that repaired correctly and then maybe see what the cost would be to try and clean up some of this old stuff the tacos a new panel the 1927 house that is still some old things going on and just trying to you know just clean stuff up a little bit if I could
+                                    [confidence] => 0.95302415
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  sure I understand
+                                    [confidence] => 0.9876291
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  so Community is the basement finished or unfinished in the choice net worth
+                                    [confidence] => 0.62022924
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [4] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  you know to do that you could you could be into this thing for $3,000 $5,000 in a hurry to go to that extreme I mean really it's just if you want to get those conduits, and the Romex up into the $5,000 is an extreme that's just what it's going to take. It's not extreme Overkill it's just a you don't understand that those those wires go upstairs and they need to be there so there's there's going to be York you know this this thing to get rid of those conduits could easily stretch you into pretty much rewire in the house that's y-you no call for what it is and I know
+                                    [confidence] => 0.95256406
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [5] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  it's like $3,000 to Gary's kind of it so maybe that's not safe at all taking care of you know will always be there unless we're going to pull wire from the upstairs and reroute it and things of that nature and unless that that's a box doesn't feed the upstairs but most of the time they do this box is hot
+                                    [confidence] => 0.9384105
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [6] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  I don't understand what's going on here and I just scared hope I could at least get this fixed I mean I pay whatever the minimum charges to come out you know
+                                    [confidence] => 0.85930234
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [7] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  whatever that is one thing taking care of something feel like I'm back to being safe again the minimum is probably going to be $300
+                                    [confidence] => 0.91504365
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [8] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  okay
+                                    [confidence] => 0.98762906
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [9] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  alright well whatever I need a manic I got to make sure this is done right that there's old and new clean this one box and I really I don't understand you got four different wiring methods going through your home I'm sure of it so there's a lot going on and lots to do and you know it I don't know how long it's going to take to fix what you got going on but L300 be a minimum so just based on what I know of what I've done forever but I can you take your information to get you on the schedule and we can see you know if you're still interested in having us come out you know like I said that be a minimum and I could go up from there
+                                    [confidence] => 0.9598321
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [10] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  yeah this immediate needs to be taken care of should be handled within that you know what you can do so how far out are you by the end of the week sometime between now and then
+                                    [confidence] => 0.9148586
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [11] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  tell my my name is John
+                                    [confidence] => 0.68694174
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [12] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  phone number to last name John
+                                    [confidence] => 0.70581967
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [13] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  Barbie a r a r s v o l d
+                                    [confidence] => 0.8937601
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [14] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  okay
+                                    [confidence] => 0.98762906
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [15] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  and what is your address 7330 Southeast Mitchell Court
+                                    [confidence] => 0.9829028
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [16] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  Mitchell
+                                    [confidence] => 0.98762906
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [17] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  set another Milwaukie or Portland Southeast Foster Road
+                                    [confidence] => 0.83716005
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [18] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  97206
+                                    [confidence] => 0.8661451
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [19] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  and a phone number
+                                    [confidence] => 0.64445335
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [20] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  206-551-9653
+                                    [confidence] => 0.9804469
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [21] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  okay I got you down so we'll give you a call here and let you know when we can get over to get you taken care of alright okay thank you
+                                    [confidence] => 0.86420697
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [22] => Google\Cloud\Speech\Result Object
+        (
+            [info:Google\Cloud\Speech\Result:private] => Array
+                (
+                    [alternatives] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [transcript] =>  alright we're going to pull leaves
+                                    [confidence] => 0.8631658
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
