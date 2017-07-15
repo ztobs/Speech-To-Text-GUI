@@ -3,7 +3,7 @@ require_once "vendor/autoload.php";
 include_once "config.php";
 
 use Google\Cloud\Storage\StorageClient;
-use Google\Cloud\Storage\StorageObject;
+
 
 $storage = new StorageClient([
     'projectId' => PROJECTID
@@ -22,6 +22,7 @@ function uploadAudioCloud($audio_file)
 	$bucket->upload(
 	    fopen('uploads/'.$audio_file, 'r')
 	);
+	return "yes";
 }
 
 /*function deleteAudioCloud($audio_file)

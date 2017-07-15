@@ -74,9 +74,19 @@
                         allowedFileExtensions: ['mp3', 'flac', 'wav', 'm4a'],
                         uploadAsync: true,
                         maxFileCount: 1,
-                        maxFilesNum: 1
+                        maxFilesNum: 1,
+                        slugCallback: function (filename) {
+
+                                return filename.replace('_', '_');
+                            }
                     });
                     </script>
+
+                    <br>
+                    <button type="button" class="btn btn-primary active" id="convert">Convert</button>
+
+                    <div id="console" class="md-12" style="min-height:100px; background: #333; margin-top: 30px; color:white; padding: 30px; font-size: 20px; text-align: left; line-height: 1.3em">
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,6 +103,45 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            
+            $("#convert").click(function(){
+                var status = $('.progress-bar').html().trim();
+                
+                if(status != "Done")
+                {
+                    alert("Upload the file first");
+                }
+                else
+                {
+                    var filename = $('.file-caption-name').attr('title');
+                    var in_data = {filename:filename}
+
+                    $.ajax({
+                        url:'processor.php',
+                        data: in_data,
+                        type: 'POST',
+                        success: function(data){
+                            $('#convert').removeClass('disabled');
+                            $('#convert').addClass('active');
+                            $('#convert').html('Convert');
+                            $('#console').html(data);
+
+                        },
+                        beforeSend: function(){
+                            $('#convert').removeClass('active');
+                            $('#convert').addClass('disabled');
+                            $('#convert').html('Processing ...');
+                            $('#console').html("");
+                        }
+                    })
+                }
+
+            });
+        });
+    </script>
 
 </body>
 

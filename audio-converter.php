@@ -25,3 +25,4 @@ $format
     ->setAudioKiloBitrate(256);
 
 $audio->save($format, $dir.$name.'.flac');
+echo "yes";
