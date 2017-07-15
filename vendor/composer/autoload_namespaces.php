@@ -8,5 +8,9 @@ $baseDir = dirname($vendorDir);
 return array(
     'Rize\\UriTemplate' => array($vendorDir . '/rize/uri-template/src'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
+    'Neutron' => array($vendorDir . '/neutron/temporary-filesystem/src'),
+    'FFMpeg' => array($vendorDir . '/php-ffmpeg/php-ffmpeg/src'),
+    'Evenement' => array($vendorDir . '/evenement/evenement/src'),
     'DrSlump' => array($vendorDir . '/stanley-cheung/protobuf-php/library'),
+    'Alchemy' => array($vendorDir . '/alchemy/binary-driver/src'),
 );
