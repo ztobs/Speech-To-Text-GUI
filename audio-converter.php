@@ -4,12 +4,6 @@
 require "vendor/autoload.php";
 
 
-var_dump(getenv('PATH'));
-var_dump(exec('which ffmpeg'));
-var_dump(ini_get('open_basedir'));
-var_dump(is_file(exec('which ffmpeg')));
-var_dump(is_executable(exec('which ffmpeg')));
-die();
 
 $dir = "uploads/";
 $audio_file = $argv[1];
@@ -27,7 +21,7 @@ $format->on('progress', function ($audio, $format, $percentage) {
 });
 
 $format
-    ->setAudioChannels(2)
+    ->setAudioChannels(1)
     ->setAudioKiloBitrate(256);
 
-$audio->save($format, $dir.$name.'flac');
+$audio->save($format, $dir.$name.'.flac');

@@ -9,7 +9,11 @@ foreach (glob($target_dir."/*.*") as $filename) {
         unlink($filename);
     }
 }
-//rmdir($dir);
+
+
+$f_name = $_FILES["kartik-input-700"]["name"][0];
+$f_array = explode(".", $f_name);
+$f_name_part = $f_array[0];
 
 $target_file = $target_dir . basename($_FILES["kartik-input-700"]["name"][0]);
 $uploadOk = 1;
@@ -47,26 +51,20 @@ if ($uploadOk == 0) {
 // if everything is ok, try to upload file
 } else {
     if (move_uploaded_file($_FILES["kartik-input-700"]["tmp_name"][0], $target_file)) {
-        
-  
-
-        /*$return = array('initialPreviewConfig'=>
-                            array(
-                                'caption' => $_FILES["kartik-input-700"]["name"][0],
-                                'url' => 'deleter.php'
-                                )
-                        );
-        echo json_encode($return);*/
-        if(uploadAudioCloud($_FILES["kartik-input-700"]["name"][0]) == "yes")
+        sleep(2);
+        exec("php audio-converter.php ".$f_name, $out1);
+        //sleep(10);
+        print_r($out1); die();
+        if(uploadAudioCloud($f_name_part.".flac") == "yes")
         {
             $return = array('initialPreviewConfig'=>
                             array(
-                                'caption' => $_FILES["kartik-input-700"]["name"][0],
+                                'caption' => $f_name_part.".flac",
                                 'url' => 'deleter.php'
                                 )
                         );
             //echo json_encode($return);
-            echo exec  ('php speech.php transcribe gs://proverbial-cathode-5780/'.$_FILES["kartik-input-700"]["name"][0].' --encoding FLAC --async');
+            echo exec  ('php speech.php transcribe gs://proverbial-cathode-5780/'.$f_name_part.'.flac --encoding FLAC --async');
         }
 
         
